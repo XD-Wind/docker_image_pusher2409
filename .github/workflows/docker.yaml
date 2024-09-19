@@ -11,6 +11,8 @@ env:
   ALIYUN_NAME_SPACE: "${{ secrets.ALIYUN_NAME_SPACE }}"
   ALIYUN_REGISTRY_USER: "${{ secrets.ALIYUN_REGISTRY_USER }}"
   ALIYUN_REGISTRY_PASSWORD: "${{ secrets.ALIYUN_REGISTRY_PASSWORD }}"
+  GIT_USER : "${{ secrets.GIT_USER }}"
+  GIT_PASSWORD: "${{ secrets.GIT_PASSWORD }}"
 
 jobs:
 
@@ -107,6 +109,8 @@ jobs:
             fi
         
             echo "docker pull $line"
+            #登录docker
+            docker login --username= "${{ secrets.GIT_USER }}" --password="${{ secrets.GIT_PASSWORD }}"
             docker pull $line
             platform=$(echo "$line" | awk -F'--platform[ =]' '{if (NF>1) print $2}' | awk '{print $1}')
             echo "platform is $platform"
