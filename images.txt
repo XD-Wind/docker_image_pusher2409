@@ -3,5 +3,7 @@
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
-jetstack/cert-manager:v1.5.1
+#--platform=linux/arm64 xiaoyaliu/alist
+#jetstack/cert-manager:v1.5.1
+#kubeedge1.15.4 coludcore镜像
+docker.io/kubeedge/cloudcore:v1.18.0
