@@ -7,4 +7,4 @@ xhofe/alist:latest
 #jetstack/cert-manager:v1.5.1
 #kubeedge1.15.4 coludcore镜像
 docker.io/kubeedge/cloudcore:v1.18.0
-karmada-io/karmada
+
