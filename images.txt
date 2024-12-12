@@ -1,10 +1,10 @@
 #nginx
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
+#xhofe/alist:latest
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 #jetstack/cert-manager:v1.5.1
 #kubeedge1.15.4 coludcore镜像
-docker.io/kubeedge/cloudcore:v1.18.0
-registry.k8s.io/metrics-server/metrics-server:v0.7.2
+#docker.io/kubeedge/cloudcore:v1.18.0
+#registry.k8s.io/metrics-server/metrics-server:v0.7.2
