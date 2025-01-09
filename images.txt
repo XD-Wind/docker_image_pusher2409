@@ -3,7 +3,7 @@
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
 ##下方为安装karmada所用镜像20250109##
-quay.io/karmada/etcd
+#quay.io/karmada/etcd
 docker.io/library/alpine
 karmada/karmada-aggregated-apiserver
 k8s.gcr.io/kube-apiserver
