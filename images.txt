@@ -3,12 +3,12 @@
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
 ##下方为安装karmada所用镜像20250109##
-#quay.io/karmada/etcd
+k8s.gcr.io/etcd
 docker.io/library/alpine
 karmada/karmada-aggregated-apiserver
 k8s.gcr.io/kube-apiserver:v1.27.0
 karmada/karmada-controller-manager
-k8s.gcr.io/kube-controller-manager
+k8s.gcr.io/kube-controller-manager:v1.27.1
 karmada/karmada-scheduler
 karmada/karmada-webhook
 #
