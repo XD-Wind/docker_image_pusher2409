@@ -11,4 +11,5 @@ karmada/karmada-controller-manager
 k8s.gcr.io/kube-controller-manager:v1.27.1
 karmada/karmada-scheduler
 karmada/karmada-webhook
-#
+#karmada集群注册
+docker.io/karmada/karmada-agent
