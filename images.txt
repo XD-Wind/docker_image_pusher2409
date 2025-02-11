@@ -13,3 +13,5 @@ karmada/karmada-scheduler
 karmada/karmada-webhook
 #karmada集群注册
 docker.io/karmada/karmada-agent
+#onos
+onosproject/onos
