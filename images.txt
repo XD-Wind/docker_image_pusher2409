@@ -15,3 +15,7 @@ karmada/karmada-webhook
 docker.io/karmada/karmada-agent
 #onos
 onosproject/onos
+registry.cn-hangzhou.aliyuncs.com/google_containers/kube-apiserver:v1.26.6
+registry.cn-hangzhou.aliyuncs.com/google_containers/kube-controller-manager:v1.26.6
+docker.io/nilhil/kube-scheduler:customVR-2
+k8s.gcr.io/etcd:3.5.6-0
