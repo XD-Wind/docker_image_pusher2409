@@ -2,24 +2,23 @@
 #支持私库
 #k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 #xhofe/alist:latest
-##下方为安装karmada所用镜像20250109##
-k8s.gcr.io/etcd:3.5.7-0
-docker.io/library/alpine
-karmada/karmada-aggregated-apiserver
-k8s.gcr.io/kube-apiserver:v1.27.0
-karmada/karmada-controller-manager
-k8s.gcr.io/kube-controller-manager:v1.27.1
-karmada/karmada-scheduler
-karmada/karmada-webhook
+##下方为安装karmada所用镜像20250109##k8s.gcr.io/etcd:3.5.7-0
+#docker.io/library/alpine
+#karmada/karmada-aggregated-apiserver
+#k8s.gcr.io/kube-apiserver:v1.27.0
+#karmada/karmada-controller-manager
+#k8s.gcr.io/kube-controller-manager:v1.27.1
+#karmada/karmada-scheduler
+#karmada/karmada-webhook
 #karmada集群注册
-docker.io/karmada/karmada-agent
+#docker.io/karmada/karmada-agent
 #onos
-onosproject/onos
+#onosproject/onos
 ##下方为安装karmada 银河麒麟ARM86版所用镜像20250423##
---platform=linux/arm64 k8s.gcr.io/etcd:3.5.7-0
---platform=linux/arm64 docker.io/library/alpine
---platform=linux/arm64 karmada/karmada-aggregated-apiserver
---platform=linux/arm64 k8s.gcr.io/kube-apiserver:v1.27.0
+#--platform=linux/arm64 k8s.gcr.io/etcd:3.5.7-0
+#--platform=linux/arm64 docker.io/library/alpine
+#--platform=linux/arm64 karmada/karmada-aggregated-apiserver
+#--platform=linux/arm64 k8s.gcr.io/kube-apiserver:v1.27.0
 --platform=linux/arm64 karmada/karmada-controller-manager
 --platform=linux/arm64 k8s.gcr.io/kube-controller-manager:v1.27.1
 --platform=linux/arm64 karmada/karmada-scheduler
