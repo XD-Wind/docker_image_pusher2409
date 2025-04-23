@@ -15,3 +15,14 @@ karmada/karmada-webhook
 docker.io/karmada/karmada-agent
 #onos
 onosproject/onos
+##下方为安装karmada 银河麒麟ARM86版所用镜像20250423##
+--platform=linux/arm64 k8s.gcr.io/etcd:3.5.7-0
+--platform=linux/arm64 docker.io/library/alpine
+--platform=linux/arm64 karmada/karmada-aggregated-apiserver
+--platform=linux/arm64 k8s.gcr.io/kube-apiserver:v1.27.0
+--platform=linux/arm64 karmada/karmada-controller-manager
+--platform=linux/arm64 k8s.gcr.io/kube-controller-manager:v1.27.1
+--platform=linux/arm64 karmada/karmada-scheduler
+--platform=linux/arm64 karmada/karmada-webhook
+#karmada集群注册专用 银河麒麟ARM86版所用镜像20250423##
+--platform=linux/arm64 docker.io/karmada/karmada-agent
