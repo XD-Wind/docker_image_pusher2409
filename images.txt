@@ -25,3 +25,5 @@
 --platform=linux/arm64 karmada/karmada-webhook
 #karmada集群注册专用 银河麒麟ARM86版所用镜像20250423##
 --platform=linux/arm64 docker.io/karmada/karmada-agent
+#harbor V2.13.1
+--platform=linux/arm64 harbor/harbor:v2.13.1
