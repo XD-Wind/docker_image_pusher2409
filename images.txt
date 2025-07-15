@@ -16,7 +16,7 @@
 #onosproject/onos
 ##下方为安装karmada 银河麒麟ARM86版所用镜像20250423##
 #--platform=linux/arm64 k8s.gcr.io/etcd:3.5.7-0
---platform=linux/arm64 docker.io/library/alpine
+--platform=linux/arm64 docker.io/library/alpine:3.22.0
 #--platform=linux/arm64 karmada/karmada-aggregated-apiserver
 #--platform=linux/arm64 k8s.gcr.io/kube-apiserver:v1.27.0
 #--platform=linux/arm64 karmada/karmada-controller-manager
