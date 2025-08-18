@@ -39,4 +39,5 @@
 #--platform=linux/arm64 goharbor/trivy-adapter-photon:v2.13.1
 #--platform=linux/arm64 karmada/karmada-dashboard-web:main
 #--platform=linux/arm64 karmada/karmada-dashboard-api:main
---platform=linux/arm64 mysql
+#--platform=linux/arm64 mysql
+--platform=linux/arm64 nfs-subdir-external-provisioner:v4.0.2
