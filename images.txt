@@ -40,4 +40,6 @@
 #--platform=linux/arm64 karmada/karmada-dashboard-web:main
 #--platform=linux/arm64 karmada/karmada-dashboard-api:main
 #--platform=linux/arm64 mysql
---platform=linux/arm64 registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
+#--platform=linux/arm64 registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
+--platform=linux/arm64 nacos/nacos-peer-finder-plugin:1.1
+--platform=linux/arm64 nacos/nacos-server:v2.1.1
