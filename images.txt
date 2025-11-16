@@ -43,29 +43,6 @@
 #--platform=linux/arm64 registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
 #--platform=linux/arm64 nacos/nacos-peer-finder-plugin:1.1
 #--platform=linux/arm64 nacos/nacos-server:v2.1.1
---platform=linux/arm64 goharbor/harbor-core:v2.10.1          # Harbor 核心服务
---platform=linux/arm64 goharbor/harbor-db:v2.10.1            # 数据库
---platform=linux/arm64 goharbor/harbor-jobservice:v2.10.1    # 任务服务
---platform=linux/arm64 goharbor/harbor-portal:v2.10.1        # Web界面
---platform=linux/arm64 goharbor/registry-photon:v2.10.1      # 镜像仓库核心
---platform=linux/arm64 goharbor/redis-photon:v2.10.1         # Redis缓存
---platform=linux/arm64 goharbor/nginx-photon:v2.10.1         # Nginx代理
-# 漏洞扫描功能 - 如果不需要安全扫描可以去掉
---platform=linux/arm64 goharbor/trivy-adapter-photon:v2.10.1
-# 内容信任（Notary） - 如果不需要镜像签名验证可以去掉
---platform=linux/arm64 goharbor/notary-server-photon:v2.10.1
---platform=linux/arm64 goharbor/notary-signer-photon:v2.10.1
-# 日志收集 - 如果使用外部日志系统可以去掉
---platform=linux/arm64 goharbor/harbor-log:v2.10.1
-# 监控导出器 - 如果不需要Prometheus监控可以去掉
---platform=linux/arm64 goharbor/harbor-exporter:v2.10.1
-# 仓库控制 - 通常需要，但如果是简单部署可以考虑去掉
---platform=linux/arm64 goharbor/harbor-registryctl:v2.10.1
+#
 ############
---platform=linux/arm64 docker.io/kubesphere/kube-state-metrics:v2.12.0
---platform=linux/arm64 docker.io/kubesphere/prometheus:v2.51.2
---platform=linux/arm64 docker.io/kubesphere/prometheus-node-exporter:v1.8.1
---platform=linux/arm64 docker.io/kubesphere/alertmanager:v0.27.0
---platform=linux/arm64 docker.io/kubesphere/grafana:10.2.3
---platform=linux/arm64 docker.io/kubesphere/opensearch:2.17.0
---platform=linux/arm64 docker.io/kubesphere/opensearch-dashboards:2.17.0
+
